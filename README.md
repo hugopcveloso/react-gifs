@@ -1,2 +1,2 @@
-A simple one page react app to search gifs.
+A simple one page react app to search gifs. 
 
