@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import giphy from 'giphy-api';
+import { GiphyFetch } from '@giphy/js-fetch-api'
+
 import SearchBar from './search_bar';
 import GifList from './gif-list';
 import Gif from './gif';
@@ -14,6 +16,7 @@ class App extends Component {
       selectedGifId: null,
     };
   }
+
 
   search = (query) => {
     giphy('Hlvvt7BFlfYj3jIDLvedMPpbtxnY9BZ1').search({
